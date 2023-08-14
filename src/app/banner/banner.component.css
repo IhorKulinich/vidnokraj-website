@@ -40,6 +40,8 @@
     height: 7.75vh;
     width: 21.87vw;
     display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid white;
 }
 
 .button:last-child{
