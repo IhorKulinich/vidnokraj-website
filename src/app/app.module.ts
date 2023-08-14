@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { ReportsComponent } from './reports/reports.component';
 import { FaqComponent } from './faq/faq.component';
 import { SupportComponent } from './support/support.component';
+import { CardComponent } from './helping/card/card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SupportComponent } from './support/support.component';
     AboutComponent,
     ReportsComponent,
     FaqComponent,
-    SupportComponent
+    SupportComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule
