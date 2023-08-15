@@ -13,6 +13,7 @@ import { ReportsComponent } from './reports/reports.component';
 import { FaqComponent } from './faq/faq.component';
 import { SupportComponent } from './support/support.component';
 import { CardComponent } from './helping/card/card.component';
+import { CardndComponent } from './souvenirs/cardnd/cardnd.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CardComponent } from './helping/card/card.component';
     ReportsComponent,
     FaqComponent,
     SupportComponent,
-    CardComponent
+    CardComponent,
+    CardndComponent
   ],
   imports: [
     BrowserModule
