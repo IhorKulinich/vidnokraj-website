@@ -40,6 +40,10 @@
     text-transform: uppercase;
 }
 
+#top-menu > p:hover{
+    text-decoration: underline;
+}
+
 #lang{
     float: right;
     margin-right: 90px;
