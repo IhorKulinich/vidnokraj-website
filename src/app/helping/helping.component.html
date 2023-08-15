@@ -1,7 +1,9 @@
 <div id="helping-main">
-    <h1></h1>
+    <h1>допомога добровольцям</h1>
     <div id="helping-container">
         <app-card *ngFor="let info of cards" [data]="info" (select)="focusItem($event)"></app-card>
     </div>
-    <div id="helping-footer"></div>
+    <div id="helping-footer">
+        <img src="./assets/helping/rent.png">
+    </div>
 </div>

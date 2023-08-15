@@ -4,15 +4,33 @@ img{
     margin: 0;
 }
 
-p:first-child{
-    margin-top: 30px;
+p:nth-child(2n){
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
-p:last-child{
-    margin-top: 6px;
+p:nth-child(3n){
+    margin-top: 5px;
 }
 
 p{
-    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
     text-transform: uppercase;
+}
+
+.button{
+    margin-top: 2.62vh;
+    height: 4.36vh;
+    width: 100%;
+    border-radius: 207px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+.button > p{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4.36vh;
 }

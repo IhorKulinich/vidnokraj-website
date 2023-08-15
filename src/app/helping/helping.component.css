@@ -1,4 +1,40 @@
-app-card{
-    height: 40vh;
-    width: 28vw; 
+#helping-main{
+    padding-top: 11.65vh;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    box-sizing: border-box;
+}
+
+#helping-main > h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#helping-container{
+    margin-top: 40px;
+    margin-left: calc( 50% - 60vh );
+    width: 120vh;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    row-gap: 35px;
+    column-gap: 35px;
+}
+
+#helping-footer{
+    margin-top: 15px;
+    width: 100%;
+}
+
+#helping-footer > img{
+    height: 10.50vh;
+    background-size: cover;
+    margin-right: 0;
+    float: right;
 }
