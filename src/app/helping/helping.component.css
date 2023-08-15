@@ -33,8 +33,6 @@
 }
 
 #helping-footer > img{
-    height: 10.50vh;
-    background-size: cover;
-    margin-right: 0;
-    float: right;
+    height: 13vh;
+    background-size: 13vh 100%;
 }

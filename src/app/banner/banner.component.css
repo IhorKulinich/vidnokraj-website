@@ -17,10 +17,10 @@
     padding: 0;
 }
 
-#main-banner > p{
+#main-banner > h1{
     margin-top: 0;
     font-weight: 800;
-    font-size: 4.85vh;
+    font-size: 51px;
     line-height: 7.75vh;
     letter-spacing: 0.2vw;
     margin-bottom: 0;
@@ -33,14 +33,14 @@
 }
 
 .button{
-    margin-top: 0;
+    margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 207px;
     height: 7.75vh;
     width: 21.87vw;
     display: inline-block;
     box-sizing: border-box;
-    border: 1px solid rgb(85, 85, 85);
+    border: 1px solid white;
 }
 
 .button:last-child{
@@ -54,6 +54,7 @@
     font-size: 16px;
     line-height: 7.75vh;
     text-transform: uppercase;
+    word-spacing: 5%;
 }
 
 .button:hover{

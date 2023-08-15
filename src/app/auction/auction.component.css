@@ -42,7 +42,7 @@
 .button{
     margin-left: calc( 50% - 10.93vw);
     margin-top: 7vh;
-    background-color: rgb(85, 85, 85);
+    background-color: rgba(211, 211, 211, 0.7);
     border-radius: 207px;
     height: 7.75vh;
     width: 21.87vw;
@@ -51,11 +51,11 @@
 }
 
 .button > p{
-    color: white;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     margin-top: 0;
     text-transform: uppercase;
+    word-spacing: 5%;
 }

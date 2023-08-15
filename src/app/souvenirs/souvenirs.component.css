@@ -69,10 +69,9 @@ app-cardnd{
     border-radius: 25px;
     width: 50px;
     height: 50px;
-    background: rgba(85, 85, 85, 0.5);
+    background: rgba(240, 240, 240, 0.7);
     display: inline-block;
     box-sizing: border-box;
-    border: 3px solid rgb(85, 85, 85);
     /*
     border: 1px solid rgb(85, 85, 85);
     box-shadow: inset 0px 0px 2px rgb(85, 85, 85);
@@ -85,11 +84,11 @@ app-cardnd{
 }
 
 #left > img, #right > img{
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 #left > img{
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 #right > img{
