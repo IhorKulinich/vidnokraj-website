@@ -8,14 +8,18 @@ img{
 }
 
 .button{
-    margin: 3.88vh 10px 20px 10px;
+    margin: 3.88vh 20px 20px 20px;
     height: 4.36vh;
-    width: calc( 100% - 20px );
+    width: calc( 100% - 40px );
     border-radius: 207px;
-    background-color: rgb(85, 85, 85);
+    background-color: rgba(85, 85, 85, 0.7);
     color: white;
     box-sizing: border-box;
     padding: 0; 
+}
+
+.button:hover{
+    background-color: rgb(85, 85, 85);
 }
 
 .button > p{

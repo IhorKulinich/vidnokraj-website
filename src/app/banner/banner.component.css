@@ -7,7 +7,7 @@
     top: 0;
     display: block;
     padding-top: 30vh;
-    padding-bottom: 14.7vh;
+    padding-bottom: 12vh;
 }
 
 #main-banner{
@@ -30,6 +30,7 @@
     height: 10.5vh; 
     width: 100%; 
     margin-top: 0;
+    z-index: 3;
 }
 
 .button{
@@ -37,10 +38,12 @@
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 207px;
     height: 7.75vh;
-    width: 21.87vw;
+    width: 20vw;
     display: inline-block;
     box-sizing: border-box;
     border: 1px solid white;
+    z-index: 3;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .button:last-child{
@@ -63,11 +66,33 @@
 
 #banner-socials{
     margin-left: calc( 50% - 112px);
-    margin-top: 17.5vh;
+    margin-top: 22.5vh;
     height: 30px;
     display: grid;
     grid-template-columns: repeat(4, 30px);
     column-gap: 35px;
     grid-auto-rows: 30px;
     width: calc( 4*30px + 3*35px );
+    /*mask-image: url(#botton-hands);*/
+}
+
+#top-hands, #bottom-hands{
+    background-size: calc(100% - 180px) 30px;
+    width: calc(100% - 180px);
+    margin: 0;
+    display: block;
+    height: 30px;
+    position: relative;
+}
+
+#top-hands{
+    background: url("../../assets/hands-top.png") no-repeat;
+    margin-left: -120px;
+    margin-top: -27px;
+}
+
+#bottom-hands{
+    background: url("../../assets/hands-bottom.png") no-repeat;
+    margin-left: -28px;
+    margin-top: -50px;
 }

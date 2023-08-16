@@ -17,6 +17,7 @@
     padding-top: 9vh;
     padding-bottom: 9vh;
     box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 #auction-container > h1{
@@ -40,12 +41,12 @@
 }
 
 .button{
-    margin-left: calc( 50% - 10.93vw);
+    margin-left: calc( 50% - 10vw);
     margin-top: 7vh;
     background-color: rgba(211, 211, 211, 0.7);
     border-radius: 207px;
     height: 7.75vh;
-    width: 21.87vw;
+    width: 20vw;
     box-sizing: border-box;
     padding: 20px;
 }

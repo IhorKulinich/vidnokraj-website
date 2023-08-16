@@ -1,0 +1,77 @@
+#faq-main{
+    margin-top: 40px;
+    margin-bottom: 110px;
+    margin-left: 90px;
+    margin-right: 90px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+
+#faq-main > h1{
+    line-height: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 5%;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+#faq-main > img{
+    background-size: cover;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.button{
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border-radius: 207px;
+    height: 7.75vh;
+    width: 25vw;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 30px 10px 40px;
+}
+
+#faq-main > .button:first-of-type{
+    margin-left: 60px;
+}
+
+.button > span, .button > img{
+    display: inline-block;
+    margin: 0;
+}
+
+.button > span{
+    float: left;
+}
+
+.button > img{
+    float: right;
+    width: 45px;
+    height: 30px;
+    margin-top: 5px;
+    background-size: contain;
+}
+
+.button > img:first-of-type{
+    width: 30px;
+}
+
+.button > span > p, .button > span > h1{
+    letter-spacing: 5%;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.button > span > p{
+    font-size: 10px;
+}
+
+.button > span > h1{
+    font-size: 16px;
+}

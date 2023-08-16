@@ -40,3 +40,27 @@ app-souvenirs{
     top: 0;
     position: relative;
 }
+
+app-about{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    top: 0;
+    position: relative;
+}
+
+app-reports{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    top: 0;
+    position: relative;
+}
+
+app-faq{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    top: 0;
+    position: relative;
+}
