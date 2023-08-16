@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { AuctionComponent } from './auction/auction.component';
 import { HelpingComponent } from './helping/helping.component';
@@ -19,7 +18,6 @@ import { CardndComponent } from './souvenirs/cardnd/cardnd.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
     BannerComponent,
     AuctionComponent,
     HelpingComponent,
